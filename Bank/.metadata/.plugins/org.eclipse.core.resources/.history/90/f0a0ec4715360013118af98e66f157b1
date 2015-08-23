@@ -1,0 +1,10 @@
+package waterState;
+
+public class Yetai implements WaterState{
+
+	public void showState() {
+		// TODO Auto-generated method stub
+		System.out.println("Һ̬");
+	}
+	
+}

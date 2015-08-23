@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrams:Diagrams xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.topcased.org/DI/1.0" xmlns:diagrams="http://www.topcased.org/Diagrams/1.0" xmi:id="__v8kAUlyEeOBsKHseU9IVQ" activeDiagram="__wCDkElyEeOBsKHseU9IVQ">
+  <model href="banktemplate.uml#_qb8akM37EdqwVrslYOdUDA"/>
+  <diagrams xmi:id="__wCDkElyEeOBsKHseU9IVQ" position="0,0" size="100,100" name="banktemplate" viewport="29,0">
+    <property xmi:id="__-yRQElyEeOBsKHseU9IVQ" key="pageFormatName" value=""/>
+    <property xmi:id="__-yRQUlyEeOBsKHseU9IVQ" key="diagramWidth" value="1379"/>
+    <property xmi:id="__-yRQklyEeOBsKHseU9IVQ" key="diagramHeight" value="1263"/>
+    <property xmi:id="__-yRQ0lyEeOBsKHseU9IVQ" key="pageMarginName" value="A4"/>
+    <property xmi:id="__-yRRElyEeOBsKHseU9IVQ" key="diagramTopMargin" value="20"/>
+    <property xmi:id="__-yRRUlyEeOBsKHseU9IVQ" key="diagramBottomMargin" value="20"/>
+    <property xmi:id="__-yRRklyEeOBsKHseU9IVQ" key="diagramLeftMargin" value="20"/>
+    <property xmi:id="__-yRR0lyEeOBsKHseU9IVQ" key="diagramRightMargin" value="20"/>
+    <property xmi:id="__-yRSElyEeOBsKHseU9IVQ" key="orientation" value="portrait"/>
+    <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__wCqoElyEeOBsKHseU9IVQ" presentation="org.topcased.modeler.uml.classdiagram">
+      <element href="banktemplate.uml#_qb8akM37EdqwVrslYOdUDA"/>
+    </semanticModel>
+    <contained xsi:type="di:GraphNode" xmi:id="_KlKaEElzEeOBsKHseU9IVQ" position="34,34" size="1270,979">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KlKaEUlzEeOBsKHseU9IVQ">
+        <element href="banktemplate.uml#_KVto0ElzEeOBsKHseU9IVQ"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_KmEZAElzEeOBsKHseU9IVQ" position="287,5" size="194,-1">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmEZAUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KVveAElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_KmEZAklzEeOBsKHseU9IVQ">
+          <property xmi:id="_KmEZA0lzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmEZBElzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KVveAElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_KmEZBUlzEeOBsKHseU9IVQ">
+          <property xmi:id="_KmEZBklzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="47"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmEZB0lzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KVveAElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_KmEZCElzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmEZCUlzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KexeMElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_KmZJIElzEeOBsKHseU9IVQ" position="53,518" size="320,-1">
+        <anchorage xmi:id="_KpuJ8ElzEeOBsKHseU9IVQ" graphEdge="_Kq09MElzEeOBsKHseU9IVQ _KrAjYElzEeOBsKHseU9IVQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmZJIUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KVx6QElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_KmZJIklzEeOBsKHseU9IVQ">
+          <property xmi:id="_KmZJI0lzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmZJJElzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KVx6QElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_KmZJJUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmZJJklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KfCj8ElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KmZJJ0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmZJKElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KfGOUElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KmZJKUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmZJKklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KfJ4sElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KmZJK0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmZJLElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KfNjEElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KmZJLUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmZJLklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KfRNcElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KmZJL0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmZJMElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KfVe4ElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KmZJMUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmZJMklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KfaXYElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KmZwMElzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmZwMUlzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kfeo0ElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KmZwMklzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmZwM0lzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KfpA4ElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KmZwNElzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmZwNUlzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KfsEMElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_KmZwNklzEeOBsKHseU9IVQ">
+          <property xmi:id="_KmZwN0lzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="47"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmZwOElzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KVx6QElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_KmZwOUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmZwOklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kft5YElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KmZwO0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmZwPElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KfvukElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_KmsEEElzEeOBsKHseU9IVQ" position="786,131" size="138,-1">
+        <anchorage xmi:id="_KqSxsElzEeOBsKHseU9IVQ" graphEdge="_KqTYwElzEeOBsKHseU9IVQ _KrC_oElzEeOBsKHseU9IVQ _KrGC8ElzEeOBsKHseU9IVQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmsEEUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KV0WgElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_KmsEEklzEeOBsKHseU9IVQ">
+          <property xmi:id="_KmsEE0lzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmsEFElzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV0WgElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_KmsEFUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmsEFklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KfyK0ElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KmsEF0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmsEGElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kfyx4UlzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KmsEGUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmsEGklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kf0AAElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_KmsEG0lzEeOBsKHseU9IVQ">
+          <property xmi:id="_KmsEHElzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="47"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmsEHUlzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV0WgElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_KmsEHklzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmsEH0lzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kf0nEElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KmsEIElzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KmsEIUlzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kf1OIElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_KnA0MElzEeOBsKHseU9IVQ" position="400,324" size="250,-1">
+        <anchorage xmi:id="_KqsaUElzEeOBsKHseU9IVQ" graphEdge="_Kq09MElzEeOBsKHseU9IVQ _KrC_oElzEeOBsKHseU9IVQ _KrIfMElzEeOBsKHseU9IVQ _KrK7cElzEeOBsKHseU9IVQ _KrNXsElzEeOBsKHseU9IVQ _KrQbAElzEeOBsKHseU9IVQ _KrS3QElzEeOBsKHseU9IVQ _KrVTgElzEeOBsKHseU9IVQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnA0MUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KV2LsElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_KnA0MklzEeOBsKHseU9IVQ">
+          <property xmi:id="_KnA0M0lzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnA0NElzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV2LsElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnA0NUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnA0NklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kf3DUElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnA0N0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnA0OElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kf4RcElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnA0OUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnA0OklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kf44gUlzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_KnA0O0lzEeOBsKHseU9IVQ">
+          <property xmi:id="_KnA0PElzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="47"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnA0PUlzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV2LsElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnA0PklzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnA0P0lzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kf6tsElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnA0QElzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnA0QUlzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kf7UwElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnA0QklzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnA0Q0lzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kf770ElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnA0RElzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnA0RUlzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kf8i4ElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnA0RklzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnA0R0lzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kf9xAElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnA0SElzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnA0SUlzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kf-YEElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_KnIwAElzEeOBsKHseU9IVQ" position="808,264" size="320,-1">
+        <anchorage xmi:id="_KqT_0ElzEeOBsKHseU9IVQ" graphEdge="_KrGC8ElzEeOBsKHseU9IVQ _KrIfMElzEeOBsKHseU9IVQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnIwAUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KV2ywElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_KnIwAklzEeOBsKHseU9IVQ">
+          <property xmi:id="_KnIwA0lzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnIwBElzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV2ywElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnIwBUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnIwBklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kf_mMElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnIwB0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnIwCElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgBbYElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnIwCUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnIwCklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgDQkElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnIwC0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnIwDElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgFFwElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnIwDUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnIwDklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgHiAElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnIwD0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnIwEElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgJXMElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnIwEUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnIwEklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgLzcElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnIwE0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnIwFElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgNooElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_KnIwFUlzEeOBsKHseU9IVQ">
+          <property xmi:id="_KnJXEElzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="47"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnJXEUlzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV2ywElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnJXEklzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnJXE0lzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgO2wElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnJXFElzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnJXFUlzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgVkcElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnJXFklzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnJXF0lzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgXZoElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_KnTvIElzEeOBsKHseU9IVQ" position="828,619" size="320,-1">
+        <anchorage xmi:id="_Kqb7oElzEeOBsKHseU9IVQ" graphEdge="_KrK7cElzEeOBsKHseU9IVQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnTvIUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KV4A4ElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_KnTvIklzEeOBsKHseU9IVQ">
+          <property xmi:id="_KnTvI0lzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnTvJElzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV4A4ElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnTvJUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnTvJklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgZ14ElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnTvJ0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnTvKElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgcSIElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnTvKUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnTvKklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgeHUElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnTvK0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnTvLElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kgf8gElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnTvLUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnTvLklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgiYwElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnTvL0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnTvMElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgkN8ElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnTvMUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnTvMklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgmDIElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnTvM0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnTvNElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kgn4UElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnTvNUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnTvNklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgptgElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnTvN0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnTvOElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgrisElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnTvOUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnTvOklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgtX4ElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_KnTvO0lzEeOBsKHseU9IVQ">
+          <property xmi:id="_KnTvPElzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="47"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnTvPUlzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV4A4ElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnTvPklzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnTvP0lzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgumAElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KnTvQElzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KnTvQUlzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kgv0IElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_Ko8t4ElzEeOBsKHseU9IVQ" position="42,756" size="320,-1">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ko8t4UlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KV5PAElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_Ko8t4klzEeOBsKHseU9IVQ">
+          <property xmi:id="_Ko8t40lzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ko8t5ElzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV5PAElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_Ko8t5UlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ko8t5klzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KgxpUElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_Ko8t50lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ko8t6ElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kg0soElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_Ko8t6UlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ko8t6klzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kg16wElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_Ko8t60lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ko8t7ElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kg3v8ElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_Ko8t7UlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ko8t7klzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kg5lIElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_Ko8t70lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ko8t8ElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kg7aUElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_Ko8t8UlzEeOBsKHseU9IVQ">
+          <property xmi:id="_Ko8t8klzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="47"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ko8t80lzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV5PAElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_Ko8t9ElzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ko8t9UlzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kg8ocElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_Ko8t9klzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ko8t90lzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kg92kElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_KpEpsElzEeOBsKHseU9IVQ" position="459,686" size="320,-1">
+        <anchorage xmi:id="_KqjQYElzEeOBsKHseU9IVQ" graphEdge="_KrAjYElzEeOBsKHseU9IVQ _KrNXsElzEeOBsKHseU9IVQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpEpsUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KV52EElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_KpEpsklzEeOBsKHseU9IVQ">
+          <property xmi:id="_KpEps0lzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpEptElzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV52EElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpEptUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpEptklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhHAgElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpEpt0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpEpuElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhKD0ElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpEpuUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpEpuklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhMgEElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpEpu0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpEpvElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhO8UElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpEpvUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpEpvklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhQxgElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpEpv0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpEpwElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhTNwElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpEpwUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpEpwklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhVqAElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpEpw0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpEpxElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhYGQElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_KpEpxUlzEeOBsKHseU9IVQ">
+          <property xmi:id="_KpEpxklzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="47"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpEpx0lzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV52EElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpEpyElzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpEpyUlzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhZUYElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpEpyklzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpEpy0lzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhZ7cElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_KpPo0ElzEeOBsKHseU9IVQ" position="432,135" size="152,-1">
+        <anchorage xmi:id="_KqmTsElzEeOBsKHseU9IVQ" graphEdge="_Kqm6wElzEeOBsKHseU9IVQ _KrQbAElzEeOBsKHseU9IVQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpPo0UlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KV7EMElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_KpPo0klzEeOBsKHseU9IVQ">
+          <property xmi:id="_KpPo00lzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpPo1ElzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV7EMElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpPo1UlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpPo1klzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhbwoElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpPo10lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpPo2ElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhcXsElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpPo2UlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpPo2klzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Khc-wElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_KpPo20lzEeOBsKHseU9IVQ">
+          <property xmi:id="_KpPo3ElzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="47"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpPo3UlzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV7EMElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpPo3klzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpPo30lzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Khdl0ElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpPo4ElzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpPo4UlzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KheM4ElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_Kpan8ElzEeOBsKHseU9IVQ" position="107,169" size="138,-1">
+        <anchorage xmi:id="_KqrMMElzEeOBsKHseU9IVQ" graphEdge="_KqrzQElzEeOBsKHseU9IVQ _KrVTgElzEeOBsKHseU9IVQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Kpan8UlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KV85YElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_Kpan8klzEeOBsKHseU9IVQ">
+          <property xmi:id="_Kpan80lzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Kpan9ElzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV85YElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_Kpan9UlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Kpan9klzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Khy9AElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_Kpan90lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Kpan-ElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kh0LIElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_Kpan-UlzEeOBsKHseU9IVQ">
+          <property xmi:id="_Kpan-klzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="47"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Kpan-0lzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV85YElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_Kpan_ElzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Kpan_UlzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kh9VEElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_Kpan_klzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Kpan_0lzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kh98IElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_KpTTMElzEeOBsKHseU9IVQ" position="39,307" size="320,-1">
+        <anchorage xmi:id="_KqoI4ElzEeOBsKHseU9IVQ" graphEdge="_KrS3QElzEeOBsKHseU9IVQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpTTMUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KV7rQElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_KpTTMklzEeOBsKHseU9IVQ">
+          <property xmi:id="_KpTTM0lzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpTTNElzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV7rQElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpTTNUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpTTNklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhgpIElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpTTN0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpTTOElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhjFYElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpTTOUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpTTOklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Khk6kElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpTTO0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpTTPElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhnW0ElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpTTPUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpTTPklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhpzEElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpTTP0lzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpTTQElzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhsPUElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpTTQUlzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpTTQklzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhurkElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_KpTTQ0lzEeOBsKHseU9IVQ">
+          <property xmi:id="_KpTTRElzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="47"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpTTRUlzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV7rQElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpTTRklzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpTTR0lzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Khv5sElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_KpTTSElzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KpTTSUlzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_KhxH0ElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_KqTYwElzEeOBsKHseU9IVQ" anchor="_KqSxsElzEeOBsKHseU9IVQ _KqSxsUlzEeOBsKHseU9IVQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KqTYwUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KfxjwElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_Kqm6wElzEeOBsKHseU9IVQ" anchor="_KqmTsElzEeOBsKHseU9IVQ _KqSxsUlzEeOBsKHseU9IVQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Kqm6wUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KhbJkElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_KqrzQElzEeOBsKHseU9IVQ" anchor="_KqrMMElzEeOBsKHseU9IVQ _KqSxsUlzEeOBsKHseU9IVQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KqrzQUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KhyV8ElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_Kq09MElzEeOBsKHseU9IVQ" anchor="_KqsaUElzEeOBsKHseU9IVQ _KpuJ8ElzEeOBsKHseU9IVQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Kq09MUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KjjQgElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_KrAjYElzEeOBsKHseU9IVQ" anchor="_KqjQYElzEeOBsKHseU9IVQ _KpuJ8ElzEeOBsKHseU9IVQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KrAjYUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_Kjj3kElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_KrC_oElzEeOBsKHseU9IVQ" anchor="_KqsaUElzEeOBsKHseU9IVQ _KqSxsElzEeOBsKHseU9IVQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KrC_oUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_Kjj3kklzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_KrGC8ElzEeOBsKHseU9IVQ" anchor="_KqT_0ElzEeOBsKHseU9IVQ _KqSxsElzEeOBsKHseU9IVQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KrGC8UlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_Kjj3lElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_KrIfMElzEeOBsKHseU9IVQ" anchor="_KqsaUElzEeOBsKHseU9IVQ _KqT_0ElzEeOBsKHseU9IVQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KrIfMUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_Kjj3lklzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_KrK7cElzEeOBsKHseU9IVQ" anchor="_KqsaUElzEeOBsKHseU9IVQ _Kqb7oElzEeOBsKHseU9IVQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KrK7cUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KjkeoElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_KrNXsElzEeOBsKHseU9IVQ" anchor="_KqsaUElzEeOBsKHseU9IVQ _KqjQYElzEeOBsKHseU9IVQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KrNXsUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KjkeoklzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_KrQbAElzEeOBsKHseU9IVQ" anchor="_KqsaUElzEeOBsKHseU9IVQ _KqmTsElzEeOBsKHseU9IVQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KrQbAUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KjkepElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_KrS3QElzEeOBsKHseU9IVQ" anchor="_KqsaUElzEeOBsKHseU9IVQ _KqoI4ElzEeOBsKHseU9IVQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KrS3QUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KjkepklzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_KrVTgElzEeOBsKHseU9IVQ" anchor="_KqsaUElzEeOBsKHseU9IVQ _KqrMMElzEeOBsKHseU9IVQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KrVTgUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KjkeqElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_Km1OAElzEeOBsKHseU9IVQ" position="498,8" size="179,-1">
+        <anchorage xmi:id="_KqSxsUlzEeOBsKHseU9IVQ" graphEdge="_KqTYwElzEeOBsKHseU9IVQ _Kqm6wElzEeOBsKHseU9IVQ _KqrzQElzEeOBsKHseU9IVQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Km1OAUlzEeOBsKHseU9IVQ">
+          <element href="banktemplate.uml#_KV09kElzEeOBsKHseU9IVQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_Km1OAklzEeOBsKHseU9IVQ">
+          <property xmi:id="_Km1OA0lzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Km1OBElzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV09kElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_Km1OBUlzEeOBsKHseU9IVQ">
+          <property xmi:id="_Km1OBklzEeOBsKHseU9IVQ" key="eStructuralFeatureID" value="47"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Km1OB0lzEeOBsKHseU9IVQ">
+            <element href="banktemplate.uml#_KV09kElzEeOBsKHseU9IVQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_Km1OCElzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Km1OCUlzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kf11MElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_Km1OCklzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Km1OC0lzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kf11MUlzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_Km1ODElzEeOBsKHseU9IVQ" position="236,126">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Km1ODUlzEeOBsKHseU9IVQ">
+              <element href="banktemplate.uml#_Kf2cQElzEeOBsKHseU9IVQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+      </contained>
+    </contained>
+  </diagrams>
+</diagrams:Diagrams>

@@ -1,0 +1,88 @@
+!SESSION 2013-10-16 11:06:20.656 -----------------------------------------------
+eclipse.buildId=M20060118-1600
+java.version=1.6.0_19
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-10-16 11:07:40.921
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Core Exception [code 275] A resource exists with a different case: /WaterState/waterState.
+	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:277)
+	at org.eclipse.jdt.internal.core.CreatePackageFragmentOperation.executeOperation(CreatePackageFragmentOperation.java:84)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:718)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1721)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:782)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:310)
+	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.createType(NewTypeWizardPage.java:1752)
+	at org.eclipse.jdt.internal.ui.wizards.NewClassCreationWizard.finishPage(NewClassCreationWizard.java:58)
+	at org.eclipse.jdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:117)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:718)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1721)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:3761)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:113)
+Caused by: org.eclipse.core.internal.resources.ResourceException: A resource exists with a different case: /WaterState/waterState.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:274)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:27)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:271)
+	at org.eclipse.jdt.internal.core.CreatePackageFragmentOperation.executeOperation(CreatePackageFragmentOperation.java:84)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:718)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1721)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:782)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:310)
+	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.createType(NewTypeWizardPage.java:1752)
+	at org.eclipse.jdt.internal.ui.wizards.NewClassCreationWizard.finishPage(NewClassCreationWizard.java:58)
+	at org.eclipse.jdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:117)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:718)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1721)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:3761)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:113)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2013-10-16 11:07:40.921
+!MESSAGE A resource exists with a different case: /WaterState/waterState.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-10-16 11:07:53.156
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Core Exception [code 275] A resource exists with a different case: /WaterState/waterState.
+	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:277)
+	at org.eclipse.jdt.internal.core.CreatePackageFragmentOperation.executeOperation(CreatePackageFragmentOperation.java:84)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:718)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1721)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:782)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:310)
+	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.createType(NewTypeWizardPage.java:1752)
+	at org.eclipse.jdt.internal.ui.wizards.NewClassCreationWizard.finishPage(NewClassCreationWizard.java:58)
+	at org.eclipse.jdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:117)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:718)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1721)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:3761)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:113)
+Caused by: org.eclipse.core.internal.resources.ResourceException: A resource exists with a different case: /WaterState/waterState.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:274)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:27)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:271)
+	at org.eclipse.jdt.internal.core.CreatePackageFragmentOperation.executeOperation(CreatePackageFragmentOperation.java:84)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:718)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1721)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:782)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:310)
+	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.createType(NewTypeWizardPage.java:1752)
+	at org.eclipse.jdt.internal.ui.wizards.NewClassCreationWizard.finishPage(NewClassCreationWizard.java:58)
+	at org.eclipse.jdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:117)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:718)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1721)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:3761)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:113)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2013-10-16 11:07:53.156
+!MESSAGE A resource exists with a different case: /WaterState/waterState.

@@ -1,0 +1,12 @@
+package waterState;
+
+
+public class Water{
+	WaterState state;
+	public void show(){
+		state.showState();
+	}
+	public void setState(WaterState s){
+		this.state = s;
+	}
+}

@@ -1,0 +1,4 @@
+package waterState;
+public interface WaterState {
+	public void showState();
+}

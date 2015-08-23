@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA" name="banktemplate">
+  <packagedElement xmi:type="uml:Package" xmi:id="_KVto0ElzEeOBsKHseU9IVQ" name="banktemplate">
+    <packagedElement xmi:type="uml:Class" xmi:id="_KVveAElzEeOBsKHseU9IVQ" name="MainClass">
+      <ownedOperation xmi:id="_KexeMElzEeOBsKHseU9IVQ" name="main" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_KexeMUlzEeOBsKHseU9IVQ" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KexeMklzEeOBsKHseU9IVQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KexeM0lzEeOBsKHseU9IVQ"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KVx6QElzEeOBsKHseU9IVQ" name="LoginDialog" clientDependency="_Ke3k0ElzEeOBsKHseU9IVQ">
+      <generalization xmi:id="_KfAHsUlzEeOBsKHseU9IVQ" general="_KfAHsElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KfCj8ElzEeOBsKHseU9IVQ" name="serialVersionUID" visibility="private" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_KfCj8UlzEeOBsKHseU9IVQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_KfGOUElzEeOBsKHseU9IVQ" name="guide" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KfJ4sElzEeOBsKHseU9IVQ" name="input" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KfNjEElzEeOBsKHseU9IVQ" name="guide1" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KfRNcElzEeOBsKHseU9IVQ" name="input1" visibility="package" type="_KYQmgklzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KfVe4ElzEeOBsKHseU9IVQ" name="showmsg" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KfaXYElzEeOBsKHseU9IVQ" name="OK" visibility="package" type="_KYQmgElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_Kfeo0ElzEeOBsKHseU9IVQ" name="screenSize" visibility="package" type="_KYPYYElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KfpA4ElzEeOBsKHseU9IVQ" name="person" visibility="package" type="_KV2LsElzEeOBsKHseU9IVQ" association="_KjjQgElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KfsEMElzEeOBsKHseU9IVQ" name="mv" visibility="package" type="_KV52EElzEeOBsKHseU9IVQ" association="_Kjj3kElzEeOBsKHseU9IVQ"/>
+      <interfaceRealization xmi:id="_Ke3k0ElzEeOBsKHseU9IVQ" name="ActionListener" supplier="_Ke0hgElzEeOBsKHseU9IVQ" client="_KVx6QElzEeOBsKHseU9IVQ" contract="_Ke0hgElzEeOBsKHseU9IVQ"/>
+      <ownedOperation xmi:id="_Kft5YElzEeOBsKHseU9IVQ" name="init" visibility="package"/>
+      <ownedOperation xmi:id="_KfvukElzEeOBsKHseU9IVQ" name="actionPerformed" visibility="public">
+        <ownedParameter xmi:id="_KfvukUlzEeOBsKHseU9IVQ" name="e" type="_KYP_cklzEeOBsKHseU9IVQ"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KV0WgElzEeOBsKHseU9IVQ" name="Deposit">
+      <generalization xmi:id="_KfxjwElzEeOBsKHseU9IVQ" general="_KV09kElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KfyK0ElzEeOBsKHseU9IVQ" name="person" visibility="package" type="_KV2LsElzEeOBsKHseU9IVQ" association="_Kjj3kklzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_Kfyx4UlzEeOBsKHseU9IVQ" name="addmoney" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Kf0AAElzEeOBsKHseU9IVQ" name="ddlg" visibility="package" type="_KV2ywElzEeOBsKHseU9IVQ" association="_Kjj3lElzEeOBsKHseU9IVQ"/>
+      <ownedOperation xmi:id="_Kf0nEElzEeOBsKHseU9IVQ" name="takenumber" visibility="public"/>
+      <ownedOperation xmi:id="_Kf1OIElzEeOBsKHseU9IVQ" name="transact" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KV2LsElzEeOBsKHseU9IVQ" name="Person">
+      <ownedAttribute xmi:id="_Kf3DUElzEeOBsKHseU9IVQ" name="ID" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Kf4RcElzEeOBsKHseU9IVQ" name="Password" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Kf44gUlzEeOBsKHseU9IVQ" name="money" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_Kf6tsElzEeOBsKHseU9IVQ" name="getID" visibility="package">
+        <ownedParameter xmi:id="_Kf6tsUlzEeOBsKHseU9IVQ" name="return" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Kf7UwElzEeOBsKHseU9IVQ" name="getPassword" visibility="package">
+        <ownedParameter xmi:id="_Kf7UwUlzEeOBsKHseU9IVQ" name="return" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Kf770ElzEeOBsKHseU9IVQ" name="getMoney" visibility="package">
+        <ownedParameter xmi:id="_Kf770UlzEeOBsKHseU9IVQ" name="return" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Kf8i4ElzEeOBsKHseU9IVQ" name="setID" visibility="package">
+        <ownedParameter xmi:id="_Kf8i4UlzEeOBsKHseU9IVQ" name="ID">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Kf9xAElzEeOBsKHseU9IVQ" name="setPassword" visibility="package">
+        <ownedParameter xmi:id="_Kf9xAUlzEeOBsKHseU9IVQ" name="Password">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Kf-YEElzEeOBsKHseU9IVQ" name="setMoney" visibility="package">
+        <ownedParameter xmi:id="_Kf-YEUlzEeOBsKHseU9IVQ" name="money">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KV2ywElzEeOBsKHseU9IVQ" name="DepositDialog" clientDependency="_Kf-_IElzEeOBsKHseU9IVQ">
+      <generalization xmi:id="_Kf-_IUlzEeOBsKHseU9IVQ" general="_KfAHsElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_Kf_mMElzEeOBsKHseU9IVQ" name="serialVersionUID" visibility="private" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_Kf_mMUlzEeOBsKHseU9IVQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_KgBbYElzEeOBsKHseU9IVQ" name="guide" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KgDQkElzEeOBsKHseU9IVQ" name="input" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KgFFwElzEeOBsKHseU9IVQ" name="showmsg" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KgHiAElzEeOBsKHseU9IVQ" name="OK" visibility="package" type="_KYQmgElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KgJXMElzEeOBsKHseU9IVQ" name="screenSize" visibility="package" type="_KYPYYElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KgLzcElzEeOBsKHseU9IVQ" name="person" visibility="package" type="_KV2LsElzEeOBsKHseU9IVQ" association="_Kjj3lklzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KgNooElzEeOBsKHseU9IVQ" name="add" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_Kf-_IElzEeOBsKHseU9IVQ" name="ActionListener" supplier="_Ke0hgElzEeOBsKHseU9IVQ" client="_KV2ywElzEeOBsKHseU9IVQ" contract="_Ke0hgElzEeOBsKHseU9IVQ"/>
+      <ownedOperation xmi:id="_KgO2wElzEeOBsKHseU9IVQ" name="init" visibility="package"/>
+      <ownedOperation xmi:id="_KgVkcElzEeOBsKHseU9IVQ" name="actionPerformed" visibility="public">
+        <ownedParameter xmi:id="_KgVkcUlzEeOBsKHseU9IVQ" name="e" type="_KYP_cklzEeOBsKHseU9IVQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_KgXZoElzEeOBsKHseU9IVQ" name="getadd" visibility="package">
+        <ownedParameter xmi:id="_KgXZoUlzEeOBsKHseU9IVQ" name="return" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KV4A4ElzEeOBsKHseU9IVQ" name="TransferDialog" clientDependency="_KgYnwElzEeOBsKHseU9IVQ">
+      <generalization xmi:id="_KgZO0ElzEeOBsKHseU9IVQ" general="_KfAHsElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KgZ14ElzEeOBsKHseU9IVQ" name="serialVersionUID" visibility="private" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_KgZ14UlzEeOBsKHseU9IVQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_KgcSIElzEeOBsKHseU9IVQ" name="guide" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KgeHUElzEeOBsKHseU9IVQ" name="input" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_Kgf8gElzEeOBsKHseU9IVQ" name="guide1" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KgiYwElzEeOBsKHseU9IVQ" name="input1" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KgkN8ElzEeOBsKHseU9IVQ" name="showmsg" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KgmDIElzEeOBsKHseU9IVQ" name="OK" visibility="package" type="_KYQmgElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_Kgn4UElzEeOBsKHseU9IVQ" name="screenSize" visibility="package" type="_KYPYYElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KgptgElzEeOBsKHseU9IVQ" name="person" visibility="package" type="_KV2LsElzEeOBsKHseU9IVQ" association="_KjkeoElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KgrisElzEeOBsKHseU9IVQ" name="transmoney" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_KgtX4ElzEeOBsKHseU9IVQ" name="transID" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_KgYnwElzEeOBsKHseU9IVQ" name="ActionListener" supplier="_Ke0hgElzEeOBsKHseU9IVQ" client="_KV4A4ElzEeOBsKHseU9IVQ" contract="_Ke0hgElzEeOBsKHseU9IVQ"/>
+      <ownedOperation xmi:id="_KgumAElzEeOBsKHseU9IVQ" name="init" visibility="package"/>
+      <ownedOperation xmi:id="_Kgv0IElzEeOBsKHseU9IVQ" name="actionPerformed" visibility="public">
+        <ownedParameter xmi:id="_Kgv0IUlzEeOBsKHseU9IVQ" name="e" type="_KYP_cklzEeOBsKHseU9IVQ"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KV5PAElzEeOBsKHseU9IVQ" name="getNumberDialog" clientDependency="_KgwbMElzEeOBsKHseU9IVQ">
+      <generalization xmi:id="_KgwbMUlzEeOBsKHseU9IVQ" general="_KfAHsElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KgxpUElzEeOBsKHseU9IVQ" name="serialVersionUID" visibility="private" isStatic="true" isReadOnly="true">
+        <ownedComment xmi:id="_KgzegElzEeOBsKHseU9IVQ">
+          <body>/** 
+ */
+</body>
+        </ownedComment>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_KgxpUUlzEeOBsKHseU9IVQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Kg0soElzEeOBsKHseU9IVQ" name="num" visibility="package" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_Kg0soUlzEeOBsKHseU9IVQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Kg16wElzEeOBsKHseU9IVQ" name="guide" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_Kg3v8ElzEeOBsKHseU9IVQ" name="shownum" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_Kg5lIElzEeOBsKHseU9IVQ" name="OK" visibility="package" type="_KYQmgElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_Kg7aUElzEeOBsKHseU9IVQ" name="screenSize" visibility="package" type="_KYPYYElzEeOBsKHseU9IVQ"/>
+      <interfaceRealization xmi:id="_KgwbMElzEeOBsKHseU9IVQ" name="ActionListener" supplier="_Ke0hgElzEeOBsKHseU9IVQ" client="_KV5PAElzEeOBsKHseU9IVQ" contract="_Ke0hgElzEeOBsKHseU9IVQ"/>
+      <ownedOperation xmi:id="_Kg8ocElzEeOBsKHseU9IVQ" name="init" visibility="package"/>
+      <ownedOperation xmi:id="_Kg92kElzEeOBsKHseU9IVQ" name="actionPerformed" visibility="public">
+        <ownedParameter xmi:id="_Kg92kUlzEeOBsKHseU9IVQ" name="e" type="_KYP_cklzEeOBsKHseU9IVQ"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KV52EElzEeOBsKHseU9IVQ" name="myWindow" clientDependency="_Kg_EsElzEeOBsKHseU9IVQ">
+      <generalization xmi:id="_Kg_EsUlzEeOBsKHseU9IVQ" general="_KfAHsElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KhHAgElzEeOBsKHseU9IVQ" name="serialVersionUID" visibility="private" isStatic="true" isReadOnly="true">
+        <ownedComment xmi:id="_KhIOoElzEeOBsKHseU9IVQ">
+          <body>/** 
+ */
+</body>
+        </ownedComment>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_KhHAgUlzEeOBsKHseU9IVQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_KhKD0ElzEeOBsKHseU9IVQ" name="deposit" visibility="package" type="_KYQmgElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KhMgEElzEeOBsKHseU9IVQ" name="withdraw" visibility="package" type="_KYQmgElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KhO8UElzEeOBsKHseU9IVQ" name="transfer" visibility="package" type="_KYQmgElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KhQxgElzEeOBsKHseU9IVQ" name="showmsg" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KhTNwElzEeOBsKHseU9IVQ" name="blank" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KhVqAElzEeOBsKHseU9IVQ" name="screenSize" visibility="package" type="_KYPYYElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KhYGQElzEeOBsKHseU9IVQ" name="person" visibility="package" type="_KV2LsElzEeOBsKHseU9IVQ" association="_KjkeoklzEeOBsKHseU9IVQ"/>
+      <interfaceRealization xmi:id="_Kg_EsElzEeOBsKHseU9IVQ" name="ActionListener" supplier="_Ke0hgElzEeOBsKHseU9IVQ" client="_KV52EElzEeOBsKHseU9IVQ" contract="_Ke0hgElzEeOBsKHseU9IVQ"/>
+      <ownedOperation xmi:id="_KhZUYElzEeOBsKHseU9IVQ" name="init" visibility="package"/>
+      <ownedOperation xmi:id="_KhZ7cElzEeOBsKHseU9IVQ" name="actionPerformed" visibility="public">
+        <ownedParameter xmi:id="_KhZ7cUlzEeOBsKHseU9IVQ" name="e" type="_KYP_cklzEeOBsKHseU9IVQ"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KV7EMElzEeOBsKHseU9IVQ" name="Transfer">
+      <generalization xmi:id="_KhbJkElzEeOBsKHseU9IVQ" general="_KV09kElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KhbwoElzEeOBsKHseU9IVQ" name="person" visibility="package" type="_KV2LsElzEeOBsKHseU9IVQ" association="_KjkepElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KhcXsElzEeOBsKHseU9IVQ" name="transmoney" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Khc-wElzEeOBsKHseU9IVQ" name="transID" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_Khdl0ElzEeOBsKHseU9IVQ" name="takenumber" visibility="public"/>
+      <ownedOperation xmi:id="_KheM4ElzEeOBsKHseU9IVQ" name="transact" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KV7rQElzEeOBsKHseU9IVQ" name="WithdrawDialog" clientDependency="_Khez8ElzEeOBsKHseU9IVQ">
+      <generalization xmi:id="_Khez8UlzEeOBsKHseU9IVQ" general="_KfAHsElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KhgpIElzEeOBsKHseU9IVQ" name="serialVersionUID" visibility="private" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_KhgpIUlzEeOBsKHseU9IVQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_KhjFYElzEeOBsKHseU9IVQ" name="guide" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_Khk6kElzEeOBsKHseU9IVQ" name="input" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KhnW0ElzEeOBsKHseU9IVQ" name="showmsg" visibility="package" type="_KYQmg0lzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KhpzEElzEeOBsKHseU9IVQ" name="OK" visibility="package" type="_KYQmgElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KhsPUElzEeOBsKHseU9IVQ" name="screenSize" visibility="package" type="_KYPYYElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_KhurkElzEeOBsKHseU9IVQ" name="person" visibility="package" type="_KV2LsElzEeOBsKHseU9IVQ" association="_KjkepklzEeOBsKHseU9IVQ"/>
+      <interfaceRealization xmi:id="_Khez8ElzEeOBsKHseU9IVQ" name="ActionListener" supplier="_Ke0hgElzEeOBsKHseU9IVQ" client="_KV7rQElzEeOBsKHseU9IVQ" contract="_Ke0hgElzEeOBsKHseU9IVQ"/>
+      <ownedOperation xmi:id="_Khv5sElzEeOBsKHseU9IVQ" name="init" visibility="package"/>
+      <ownedOperation xmi:id="_KhxH0ElzEeOBsKHseU9IVQ" name="actionPerformed" visibility="public">
+        <ownedParameter xmi:id="_KhxH0UlzEeOBsKHseU9IVQ" name="e" type="_KYP_cklzEeOBsKHseU9IVQ"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KV85YElzEeOBsKHseU9IVQ" name="Withdraw">
+      <generalization xmi:id="_KhyV8ElzEeOBsKHseU9IVQ" general="_KV09kElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_Khy9AElzEeOBsKHseU9IVQ" name="person" visibility="package" type="_KV2LsElzEeOBsKHseU9IVQ" association="_KjkeqElzEeOBsKHseU9IVQ"/>
+      <ownedAttribute xmi:id="_Kh0LIElzEeOBsKHseU9IVQ" name="submoney" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_Kh9VEElzEeOBsKHseU9IVQ" name="takenumber" visibility="public"/>
+      <ownedOperation xmi:id="_Kh98IElzEeOBsKHseU9IVQ" name="transact" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Ke0hgElzEeOBsKHseU9IVQ" name="ActionListener"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KfAHsElzEeOBsKHseU9IVQ" name="JDialog"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_KjjQgElzEeOBsKHseU9IVQ" memberEnd="_KfpA4ElzEeOBsKHseU9IVQ _KjjQgUlzEeOBsKHseU9IVQ">
+      <ownedEnd xmi:id="_KjjQgUlzEeOBsKHseU9IVQ" name="LoginDialog" type="_KVx6QElzEeOBsKHseU9IVQ" association="_KjjQgElzEeOBsKHseU9IVQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Kjj3kElzEeOBsKHseU9IVQ" memberEnd="_KfsEMElzEeOBsKHseU9IVQ _Kjj3kUlzEeOBsKHseU9IVQ">
+      <ownedEnd xmi:id="_Kjj3kUlzEeOBsKHseU9IVQ" name="LoginDialog" type="_KVx6QElzEeOBsKHseU9IVQ" association="_Kjj3kElzEeOBsKHseU9IVQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Kjj3kklzEeOBsKHseU9IVQ" memberEnd="_KfyK0ElzEeOBsKHseU9IVQ _Kjj3k0lzEeOBsKHseU9IVQ">
+      <ownedEnd xmi:id="_Kjj3k0lzEeOBsKHseU9IVQ" name="Deposit" type="_KV0WgElzEeOBsKHseU9IVQ" association="_Kjj3kklzEeOBsKHseU9IVQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Kjj3lElzEeOBsKHseU9IVQ" memberEnd="_Kf0AAElzEeOBsKHseU9IVQ _Kjj3lUlzEeOBsKHseU9IVQ">
+      <ownedEnd xmi:id="_Kjj3lUlzEeOBsKHseU9IVQ" name="Deposit" type="_KV0WgElzEeOBsKHseU9IVQ" association="_Kjj3lElzEeOBsKHseU9IVQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Kjj3lklzEeOBsKHseU9IVQ" memberEnd="_KgLzcElzEeOBsKHseU9IVQ _Kjj3l0lzEeOBsKHseU9IVQ">
+      <ownedEnd xmi:id="_Kjj3l0lzEeOBsKHseU9IVQ" name="DepositDialog" type="_KV2ywElzEeOBsKHseU9IVQ" association="_Kjj3lklzEeOBsKHseU9IVQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_KjkeoElzEeOBsKHseU9IVQ" memberEnd="_KgptgElzEeOBsKHseU9IVQ _KjkeoUlzEeOBsKHseU9IVQ">
+      <ownedEnd xmi:id="_KjkeoUlzEeOBsKHseU9IVQ" name="TransferDialog" type="_KV4A4ElzEeOBsKHseU9IVQ" association="_KjkeoElzEeOBsKHseU9IVQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_KjkeoklzEeOBsKHseU9IVQ" memberEnd="_KhYGQElzEeOBsKHseU9IVQ _Kjkeo0lzEeOBsKHseU9IVQ">
+      <ownedEnd xmi:id="_Kjkeo0lzEeOBsKHseU9IVQ" name="myWindow" type="_KV52EElzEeOBsKHseU9IVQ" association="_KjkeoklzEeOBsKHseU9IVQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_KjkepElzEeOBsKHseU9IVQ" memberEnd="_KhbwoElzEeOBsKHseU9IVQ _KjkepUlzEeOBsKHseU9IVQ">
+      <ownedEnd xmi:id="_KjkepUlzEeOBsKHseU9IVQ" name="Transfer" type="_KV7EMElzEeOBsKHseU9IVQ" association="_KjkepElzEeOBsKHseU9IVQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_KjkepklzEeOBsKHseU9IVQ" memberEnd="_KhurkElzEeOBsKHseU9IVQ _Kjkep0lzEeOBsKHseU9IVQ">
+      <ownedEnd xmi:id="_Kjkep0lzEeOBsKHseU9IVQ" name="WithdrawDialog" type="_KV7rQElzEeOBsKHseU9IVQ" association="_KjkepklzEeOBsKHseU9IVQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_KjkeqElzEeOBsKHseU9IVQ" memberEnd="_Khy9AElzEeOBsKHseU9IVQ _KjkeqUlzEeOBsKHseU9IVQ">
+      <ownedEnd xmi:id="_KjkeqUlzEeOBsKHseU9IVQ" name="Withdraw" type="_KV85YElzEeOBsKHseU9IVQ" association="_KjkeqElzEeOBsKHseU9IVQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KV09kElzEeOBsKHseU9IVQ" name="BankTemplateMethod" isAbstract="true">
+      <ownedOperation xmi:id="_Kf11MElzEeOBsKHseU9IVQ" name="takenumber" visibility="public" isAbstract="true"/>
+      <ownedOperation xmi:id="_Kf11MUlzEeOBsKHseU9IVQ" name="transact" visibility="public" isAbstract="true"/>
+      <ownedOperation xmi:id="_Kf2cQElzEeOBsKHseU9IVQ" name="bankstep" visibility="public"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_KYLuAElzEeOBsKHseU9IVQ" name="java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_KYMVEElzEeOBsKHseU9IVQ" name="awt">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KYPYYElzEeOBsKHseU9IVQ" name="Dimension"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KYPYYUlzEeOBsKHseU9IVQ" name="FlowLayout"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KYPYYklzEeOBsKHseU9IVQ" name="Font"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KYP_cElzEeOBsKHseU9IVQ" name="Toolkit"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KYP_cUlzEeOBsKHseU9IVQ" name="event">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KYP_cklzEeOBsKHseU9IVQ" name="ActionEvent"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KYP_c0lzEeOBsKHseU9IVQ" name="ActionListener"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_KYP_dElzEeOBsKHseU9IVQ" name="javax">
+    <packagedElement xmi:type="uml:Package" xmi:id="_KYP_dUlzEeOBsKHseU9IVQ" name="swing">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KYQmgElzEeOBsKHseU9IVQ" name="JButton"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KYQmgUlzEeOBsKHseU9IVQ" name="JDialog"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KYQmgklzEeOBsKHseU9IVQ" name="JPasswordField"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KYQmg0lzEeOBsKHseU9IVQ" name="JTextArea"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
